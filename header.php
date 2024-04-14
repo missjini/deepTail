@@ -14,4 +14,8 @@
     <a href="contact.php">
         <div class="menu_bt">Contact</div>
     </a>
+
+    <a href="contact.php">
+        <div class="menu_bt">Contact</div>
+    </a>
 </div>
