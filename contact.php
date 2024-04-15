@@ -57,7 +57,55 @@
                 Contact
             </div>
         </div>
-
+        <div class="contact_wrapper">
+            <div class="contact_tit">Inquiry & Business Proposal</div>
+            <div class="contact_layer1">
+                <div class="inquiry_text1">
+                    <div class="inquiry_text2">
+                        <div>
+                            <div>회사명<br /></div>
+                            <div>대표<br /></div>
+                            <div>주요사업<br /></div>
+                            <div>SNS<br /></div>
+                            <div>소재지<br /></div>
+                            <div>대표메일<br /></div>  
+                            <div>TEL<br /></div>  
+                            <div>NOTICE</div>  
+                        </div>
+                    </div>
+                    <div class="inquiry_text3">
+                        <div>
+                            <div>딥테일 스튜디오 (DEEPTAIL STUDIO)<br /></div>
+                            <div>이지현<br /></div>
+                            <div>· 공간연출 및 디스플레이<br /></div>
+                            <div>· 공간임대업<br /></div>
+                            <div><a href='http://instagram.com/the_deeptail'>http://instagram.com/the_deeptail</a><br /></div>
+                            <div>전라남도 화순군 화순읍 노대길 8-1<br /></div>
+                            <div>deeptail99@gmail.com<br /></div>
+                            <div>010-0000-0000<br /></div>
+                            <div>
+                                이메일 또는 카카오톡 채널로<br />
+                                아래와 같은 내용을 작성하여 보내주시면<br />
+                                더욱 원활한 상담이 가능합니다.<br />
+                                ※ 예시 등과 같은 레퍼런스에 대한<br />
+                                첨부파일이 있다면 함께 보내주세요.
+                            </div>
+                            <div>
+                                · 회사명 / 담당자 / 연락처<br />
+                                · 현장위치<br />
+                                · 레퍼런스<br />
+                                · 일정 등<br />
+                            </div>       
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.007872968607!2d126.9894135762376!3d35.05654226403601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3571f5749ec41a81%3A0xa2495493b1316ba8!2z7KCE652864Ko64-EIO2ZlOyInOq1sCDtmZTsiJzsnY0g64W464yA6ri4IDgtMQ!5e0!3m2!1sko!2skr!4v1713172254578!5m2!1sko!2skr" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_tit">Contact us</div>
+            <div class="contact_layer2"></div>
+        </div>
     </content>
     <footer>
         <?php include('footer.php') ?>

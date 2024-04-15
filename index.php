@@ -53,12 +53,6 @@
     </header>
     <content class="index">
         <div class="layer1">
-<!-- 
-        <div onclick = "changeImage('pf1')">1</div>
-        <div onclick = "changeImage('pf2')">2</div>
-        <div onclick = "changeImage('pf3')">3</div>
-        <div onclick = "changeImage('pf4')">4</div>
-        <img id='detail_studio_image' src="assets/_img/pf1.jpg" alt="바위이미지" /> -->
             <div class="col1">
                 <div></div>
                 <div class="color_blocks">

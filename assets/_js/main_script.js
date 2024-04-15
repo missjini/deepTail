@@ -28,32 +28,24 @@ function photoViewing(obj){
     document.getElementById("photo_viewer").style.width = document.getElementById("photo_viewer").offsetHeight;
 }
 
-const changeImage = (imageName) => {
-  document.getElementById("detail_studio_image").src='assets/_img/'+imageName+'.jpg';
+function changeImage(imageName, object) {
+  document.getElementById("detail_studio_image").src='assets/_img/'+ imageName +'.jpg';
 
-  if(imageName == 'pf2'){
-    document.getElementById("detail_studio_image").style.width='45px';
-  }
-  else{
-    document.getElementById("detail_studio_image").style.width='145px';
+  // 같은메뉴를 클릭하지 않을 때, 메뉴 백그라운드 변경
+  if(object.classList.value !== 'studio_menu_color'){
+    
+
+    // studio_menu_color 라는 class를 찾고 배열로 만듦
+    const target_studio = document.getElementsByClassName("studio_menu_color");
+
+    // studio_menu_color class 배열을 for문으로 돌면서, studio_menu_color class 제거
+    // i = 0 부터 ~ 배열길이(target_studio.length) 까지 +1씩 상승하며 진행
+    for (let i = 0; i < target_studio.length; i++) {
+      target_studio[i].classList.remove("studio_menu_color");
+    }
+
+    // 선택된 object에 studio_menu_color class 추가
+    object.classList.add('studio_menu_color') 
   }
   
-    
-  // if(number === 'one'){
-  //     console.log('진입',number)
-  //     console.log(document.getElementById("miss"))
-  //     document.getElementById("miss").src='assets/_img/pf1.jpg';
-  // }
-  // else if(number === 'two'){
-  //     console.log('진입',number)
-  //     document.getElementById("miss").src='assets/_img/pf2.jpg';
-  // }
-  // else if(number === 'three'){
-  //     console.log('진입',number)
-  //     document.getElementById("miss").src='assets/_img/pf3.jpg';
-  // }
-  // else{
-  //     console.log('진입',number)
-  //     document.getElementById("miss").src='assets/_img/pf4.jpg';
-  // }
 }

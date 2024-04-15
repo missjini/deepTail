@@ -397,7 +397,7 @@ div {
 
 .index .portfolio_wrappper .portfolio_row .portfolio_texts .portfolio_title {
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .index .portfolio_wrappper .portfolio_row .portfolio_texts .portfolio_subtitle {
@@ -703,15 +703,289 @@ div {
 
 /* ▲▲▲▲▲ layer 1 END ▲▲▲▲▲ */
 
+.about .about_wrapper {
+    margin: 0 auto;
+    width: 1500px;
+    padding: 70px 0;
+    background: #F2E7E3;
+    margin-bottom: 50px;
+}
+
+.about .about_wrapper .about_tit { /* 타이틀 공용 css */
+    padding-left: 100px;
+    font-family: 'songmyungR', 'NanumSquareNeo-Variable', 'Nanum Gothic';
+    font-size: 40px;
+    color: #843C0C;
+    text-shadow: #0000004D 0px 3px 6px;
+    height: 40px;
+    line-height: 58px;
+    letter-spacing: -1px;
+}
+
+/* about page 1. Brand Value */
+
+.about .about_layer1 {
+    width: 100%;
+    /*outline: solid 1px blue;*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 27px 0 70px 100px;
+}
+
+.about .about_layer1 .about_photo img {
+    width: 644px;
+    height: 644px;
+    margin-right: 93px;
+}
+
+.about .about_layer1 .about_text_wrap {
+    color: #585858;
+}
+
+.about .about_layer1 .about_text_wrap .c1,
+.c2,
+.c3 {
+    font-family: 'NanumSquareNeo-variable';
+}
+
+.about .about_layer1 .about_text_wrap .about_subtit {
+    font-family: 'NanumSquareNeoHeavy', 'Nanum Gothic', 'songmyungR';
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+}
+
+.about .about_layer1 .about_text_wrap .about_subtit span {
+    font-size: 20px;
+}
+
+.about .about_layer1 .about_text_wrap .about_description {
+    font-family: 'NanumSquareNeo-Variable', 'NanumSquareNeoBold';
+}
+
+.about .about_layer1 .about_description2 {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.about .about_layer1 .about_description2 .desc_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about .about_layer1 .about_description2 .desc_row:first-child {
+    margin-top: 0;
+}
+
+.about .about_layer1 .about_description2 .desc_row .line {
+    height: 1px;
+    width: 45px;
+    border-bottom: 1px dashed #707070;
+}
+
+.about .about_layer1 .about_description2 .desc_row .c1 {
+    width: 172px;
+    height: 32px;
+    background-color: #843C0C;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+}
+
+/* about page 2. Organization Chart */
+
+.about .about_wrapper .about_layer2 {
+    position: relative;
+}
+
+.about .about_wrapper .about_layer2 .business_description {
+    color: #585858;
+    margin-top: 26px;
+    padding-left: 128px;
+}
+
+.about .about_wrapper .about_layer2 .business_description_photo_wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-left: 128px;
+    margin: 27px 0 70px;
+    /*outline: solid 1px red;*/
+}
+
+.about .about_wrapper .about_layer2 .business_description_photo_wrapper img {
+    margin-right: 32px;
+}
+
+/* about page 3. Business Outline */
+
+.about .about_wrapper .about_layer3 div p {
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: inline-block;
+    width: 65px;
+    padding: 30px 65px 15px 125px;
+    outline: solid 1px red;
+}
 
 
+.about .about_wrapper .about_layer3 span {
+    outline: solid 1px blue;
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+}
+
+.about .about_wrapper .about_layer3 .business_text1 {
+    /*outline: solid 1px orange;*/
+    display: flex;
+    letter-spacing: 0.48px;
+}
+
+.about .about_wrapper .about_layer3 .business_text2 {
+    width: 66px;
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+    color: #585858;
+    margin: 30px 65px 0 125px;
+} 
+
+.about .about_wrapper .about_layer3 .business_text2 div > div {
+    /*outline: solid 1px green;*/
+    margin-bottom: 15px;
+}
+
+.about .about_wrapper .about_layer3 .business_text2 div div:nth-child(4) {
+    margin-top: 53px;
+}
+
+.about .about_wrapper .about_layer3 .business_text2 div div:nth-child(6) {
+    margin-bottom: 0;
+}
+
+.about .about_wrapper .about_layer3 .business_text3 {
+    width: 305px;
+    /*outline: solid 1px red;*/
+    font-family: 'NanumSquareNeo-Variable';
+
+    color: #585858;
+    margin: 30px 0 0 0;
+}
+
+.about .about_wrapper .about_layer3 .business_text3 div > div {
+    margin-bottom: 15px;
+}
+
+.about .about_wrapper .about_layer3 .business_text3 div div:nth-child(5) {
+    color: #0019FF;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: solid 1px #0019FF;
+}
+
+.about .about_wrapper .about_layer3 .business_text3 div div:nth-child(7) {
+    margin-bottom: 0;
+}
+
+/* about page DEEPTAIL STUDIO */
+
+.about .about_studio_layer {
+    margin: 0 auto;
+    width: 1500px;
+    min-height: 921px;
+    padding: 70px;
+    background-color : #ECECEC;
+}
+
+.about .about_studio_layer .about_titbox {
+    width: 303px;
+    height: 52px;
+    line-height: 34px;
+    /*outline: solid 1px red;*/
+    padding: 9px;
+    background-color: #FFFFFF;
+}
+
+.about .about_studio_layer .about_tit2 {
+    color: #3B3B3B;
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    /*outline: solid 1px blue;*/
+}
+
+.about .about_studio_layer .about_studio_photo {
+    display: flex;
+    margin: 107px 0 0 60px;
+}
+
+.about .about_studio_layer .about_studio_photo .about_studio_ptmenu {
+    outline: solid 1px red;
+    margin-right: 16px;
+}
+
+/*
+.about .about_studio_layer .about_studio_photo .about_studio_ptmenu div {
+    width: 324px;
+    height: 39px;
+    padding: 8px 20px;
+    line-height: 22px;
+    font-size: 22px;
+    font-family: 'NanumSquareNeoHeavy';
+    font-weight: 900;
+    color: #3B3B3B;
+}
 
 
+.about .about_studio_layer .about_studio_photo .about_studio_ptmenu div:nth-child(1) {
+    outline: solid 1px blue;
+    background-color: #3B3B3B;
+    color: #E35C41;
+}
+*/
 
+.about .about_studio_layer .about_studio_photo .about_studio_ptmenu > div {
+    width: 324px;
+    height: 39px;
+    padding: 8px 20px 8px 20px;
+    line-height: 22px;
+    font-size: 21px;
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+    /*color: #3B3B3B;*/
+} 
 
+/* .about .about_studio_layer .about_studio_photo .about_studio_ptmenu > div:nth-child(1) {
+    background-color: #3B3B3B;
+}  */
 
+.about .about_studio_layer .about_studio_ptimg .imgbg1 {
+    width: 980px;
+    /* height: 649px; */
+    padding: 70px 170px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 3px 6px #00000029;
+}
 
-
+.studio_menu_color{
+    background-color: #3B3B3B;
+    color: #E35C41;
+}
 
 /*@@@@@@@@@@@@@@@@@@@@@     CONTACT     @@@@@@@@@@@@@@@@@@@@@@@@@*/
 
@@ -733,3 +1007,82 @@ div {
 }
 
 /* ▲▲▲▲▲ layer 1 END ▲▲▲▲▲ */
+
+.contact .contact_wrapper {
+    margin: 0 auto;
+    width: 1500px;
+    padding: 70px 0;
+    background: #F2E7E3;
+    margin-bottom: 50px;
+}
+
+.contact .contact_wrapper .contact_tit { /* 타이틀 공용 css */
+    padding-left: 125px;
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+    font-size: 40px;
+    color: #585858;
+}
+
+/* contact page Inquiry & Business Proposal */
+
+.contact .contact_wrapper .contact_layer1 {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 {
+    display: flex;
+    letter-spacing: 0.48px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text2 {
+    width: 66px;
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: bold;
+    color: #585858;
+    margin: 58px 65px 0 125px;
+} 
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text2 div > div {
+    /*outline: solid 1px green;*/
+    margin-bottom: 15px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text2 div div:nth-child(4) {
+    margin-top: 53px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text3 {
+    width: 305px;
+    /*outline: solid 1px red;*/
+    font-family: 'NanumSquareNeo-Variable';
+    color: #585858;
+    margin: 58px 118px 0 0;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text3 div > div {
+    margin-bottom: 15px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(5) {
+    width: 296px;
+    color: #0019FF;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: solid 1px #0019FF;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(9) {
+    line-height: 18px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(10) {
+    margin-bottom: 0;
+    padding-left: 10px;
+    outline: solid 1px red;
+}
+
+.contact .contact_wrapper .contact_layer1 .map {
+    margin-top: 58px;
+}
