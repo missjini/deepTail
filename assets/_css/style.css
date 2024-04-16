@@ -869,7 +869,7 @@ div {
 }
 
 .about .about_wrapper .about_layer3 .business_text2 div div:nth-child(4) {
-    margin-top: 53px;
+    margin-top: 40px;
 }
 
 .about .about_wrapper .about_layer3 .business_text2 div div:nth-child(6) {
@@ -887,6 +887,10 @@ div {
 
 .about .about_wrapper .about_layer3 .business_text3 div > div {
     margin-bottom: 15px;
+}
+
+.about .about_wrapper .about_layer3 .business_text3 div div:nth-child(3) {
+    margin-bottom: 5px;
 }
 
 .about .about_wrapper .about_layer3 .business_text3 div div:nth-child(5) {
@@ -938,26 +942,6 @@ div {
     margin-right: 16px;
 }
 
-/*
-.about .about_studio_layer .about_studio_photo .about_studio_ptmenu div {
-    width: 324px;
-    height: 39px;
-    padding: 8px 20px;
-    line-height: 22px;
-    font-size: 22px;
-    font-family: 'NanumSquareNeoHeavy';
-    font-weight: 900;
-    color: #3B3B3B;
-}
-
-
-.about .about_studio_layer .about_studio_photo .about_studio_ptmenu div:nth-child(1) {
-    outline: solid 1px blue;
-    background-color: #3B3B3B;
-    color: #E35C41;
-}
-*/
-
 .about .about_studio_layer .about_studio_photo .about_studio_ptmenu > div {
     width: 324px;
     height: 39px;
@@ -969,10 +953,6 @@ div {
     cursor: pointer;
     /*color: #3B3B3B;*/
 } 
-
-/* .about .about_studio_layer .about_studio_photo .about_studio_ptmenu > div:nth-child(1) {
-    background-color: #3B3B3B;
-}  */
 
 .about .about_studio_layer .about_studio_ptimg .imgbg1 {
     width: 980px;
@@ -1051,7 +1031,7 @@ div {
 }
 
 .contact .contact_wrapper .contact_layer1 .inquiry_text2 div div:nth-child(4) {
-    margin-top: 53px;
+    margin-top: 40px;
 }
 
 .contact .contact_wrapper .contact_layer1 .inquiry_text3 {
@@ -1064,6 +1044,10 @@ div {
 
 .contact .contact_wrapper .contact_layer1 .inquiry_text3 div > div {
     margin-bottom: 15px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(3) {
+    margin-bottom: 5px;
 }
 
 .contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(5) {
