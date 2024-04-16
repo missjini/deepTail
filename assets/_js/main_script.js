@@ -29,6 +29,7 @@ function photoViewing(obj){
 }
 
 function changeImage(imageName, object) {
+  // 이미지 파일명에 따라서 변경
   document.getElementById("detail_studio_image").src='assets/_img/'+ imageName +'.jpg';
 
   // 같은메뉴를 클릭하지 않을 때, 메뉴 백그라운드 변경
