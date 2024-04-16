@@ -966,6 +966,7 @@ div {
     font-size: 21px;
     font-family: 'NanumSquareNeo-Variable';
     font-weight: bold;
+    cursor: pointer;
     /*color: #3B3B3B;*/
 } 
 
@@ -1159,7 +1160,7 @@ div {
 .contact .contact_wrapper .contact_layer2 fieldset input[type=checkbox],
 .contact .contact_wrapper .contact_layer2 fieldset input[type=button],
 .contact .contact_wrapper .contact_layer2 fieldset textarea {
-    /*padding: 0;*/
+    padding: 2px 5px;
     border: 0;
 }
 
@@ -1197,4 +1198,5 @@ div {
     padding: 0;
     border: solid 1px #707070;
     background-color: transparent;
+    cursor: pointer;
 }

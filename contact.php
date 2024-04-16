@@ -110,56 +110,29 @@
             </div>
             <div class="contact_layer2">
                 <form action="">
-    <!--            <div>
-                        Name <input type="text" name="">
-                        E-mail <input type="text" name="">
-                        phone <input type="text" name="">
-                    </div>
-                    <div>
-                        Association <input type="text" name="">
-                    </div>
-                    <div>
-                        Title <input type="text" name="">
-                    </div>
-                    <div>
-                        Message <input type="textarea" name="">
-                    </div>
-                    <div>
-                        <input type="checkbox" name="" value="">
-                        입력한 개인정보의 수집/이용에 동의합니다. (입력하신 개인정보는 월활한 사업진행을 위한 상담에만 사용됩니다.)
-                    </div>
-                        Name <input type="text" name="">
-                        E-mail <input type="text" name="">
-                        phone <input type="text" name=""><br />
-                        Association <input type="text" name=""><br />
-                        Message <input type="textarea" name=""><br />
-                        <input type="checkbox" name="" value="">
-                        입력한 개인정보의 수집/이용에 동의합니다. (입력하신 개인정보는 월활한 사업진행을 위한 상담에만 사용됩니다.)<br />
-                        <button type="button" onclick="alert('전송되었습니다.')">SEND
-    -->
                     <fieldset>
                         <div>
-                            <label for="">Name</label><input type="text" name="">
-                            <label for="">E-mail</label><input type="text" name="">
-                            <label for="">phone</label><input type="text" name="">
+                            <label>Name</label><input type="text" name="Name">
+                            <label>E-mail</label><input type="text" name="E-mail">
+                            <label>Phone</label><input type="text" name="Phone">
                         </div>
                         <div>
-                            <label for="">Association</label><input type="text" name="">
+                            <label>Association</label><input type="text" name="Association">
                         </div>
                         <div>
-                            <label for="">Title</label><input type="text" name="">
+                            <label>Title</label><input type="text" name="Title">
                         </div>
                         <div>
-                            <label for="">Message</label><textarea name="" id="" cols="30" rows="10"></textarea>
+                            <label>Message</label><textarea name="Message"></textarea>
                         </div>
                         <div>
-                            <input type="checkbox" id="agree" name="" value="">
+                            <input type="checkbox" id="agree" name="checkbox">
                             <label for="agree">
                                 입력한 개인정보의 수집/이용에 동의합니다. (입력하신 개인정보는 원활한 사업진행을 위한 상담에만 사용됩니다.)
                             </label>
                         </div>
                         <div>
-                            <button type="button" onclick="alert('전송되었습니다.')"><label for="">SEND</label>
+                            <button type="button" onclick="alert('전송되었습니다.')">SEND</button>
                         </div>
                     </fieldset>
                 </form>
