@@ -1388,6 +1388,11 @@ div {
             width: 76.05vw;
             height: 2.33vw;
         }
+        
+        .contact .contact_wrapper .contact_layer2 fieldset div:nth-child(1) label:nth-of-type(2),
+        .contact .contact_wrapper .contact_layer2 fieldset div:nth-child(1) label:nth-of-type(3) {
+            margin-left: 0;
+        }
 
         .contact .contact_wrapper .contact_layer2 fieldset div:nth-child(3) {
             padding-left: 4.5vw;
