@@ -887,7 +887,7 @@ div {
 }
 
 .about .about_wrapper .about_layer3 .business_text2 div div:nth-child(4) {
-    margin-top: 40px;
+    margin-top: 43px;
 }
 
 .about .about_wrapper .about_layer3 .business_text2 div div:nth-child(6) {
@@ -1090,8 +1090,61 @@ div {
     /*outline: solid 1px red;*/
 }
 
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 ul{
+    list-style: none;
+    font-family: 'NanumSquareNeo-Variable';
+    color: #585858;
+    margin-top: 0;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 ul li:nth-child(1) {
+    margin-top: 58px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 ul li{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 ul li .info_project_flex, 
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 ul li .info_notice_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 ul li .info_notice_flex {
+    height: 205px;
+    justify-content: space-between;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box {
+    padding-left: 125px;
+    margin-top: 0;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box .info_tit {
+    font-weight: bold;
+    width: 67px;
+    margin-right: 44px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box .info_notice_flex2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+
+.contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box .info_link {
+    color: #0019FF;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: solid 1px #0019FF;
+}
+
 .contact .contact_wrapper .contact_layer1 .map {
     margin-top: 58px;
+    margin-left: 100px;
 }
 
 /* contact page Contact us */
@@ -1348,6 +1401,11 @@ div {
             padding-left: 8.36vw;
         }
 
+        .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box {
+            padding-left: 0;
+            width: 426px;
+        }
+
         .contact .contact_wrapper .contact_layer1 .inquiry_text2 {
             margin-left: 0.36vw;
             margin-right: 3.41vw;
@@ -1369,7 +1427,7 @@ div {
         }
 
         .contact .contact_wrapper .contact_layer1 .map iframe {
-            width: 41.6vw;
+            width: 36.6vw;
             height: 41.6vw;
         }
 
@@ -1552,13 +1610,34 @@ div {
         font-size: 30px;
     }
 
+    .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box {
+        padding-left: 0;
+    }
+
+    .contact .contact_wrapper .contact_layer1 .map iframe {
+        width: 33.6vw;
+        height: 41.6vw;
+    }
+
     .contact .contact_wrapper .contact_layer1 .inquiry_text2 {
         margin-left: 2.7vw;
     }
 
-    .contact .contact_wrapper .contact_layer1 .inquiry_text1 {
+    .contact .contact_wrapper .contact_layer1 .inquiry_text1 ul{
+        list-style: none;
+    }
+
+    .contact .contact_wrapper .contact_layer1 .inquiry_text1 ul li{
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box{
         /*outline: solid 1px blue;*/
         flex-flow: wrap;
+        width: 416px;
+        padding-left: 30px;
     }
 
     .contact .contact_wrapper .contact_layer1 .map {
@@ -1622,6 +1701,22 @@ div {
         width: calc(100% - 10px);
         height: 22.66vw;
     }
+
+    /* 지도 크기로 인해 새로 생성 */
+    @media (max-width: 900px) {
+        .contact .contact_wrapper .contact_layer1 .inquiry_text1 {
+            display: flex;
+            letter-spacing: 0.48px;
+            flex-direction: column;
+        }
+
+        .contact .contact_wrapper .contact_layer1 .map iframe {
+            width: 76.6vw;
+            height: 41.6vw;
+        }
+
+    }
+
 } /* 1023px end */
 
     @media (max-width: 760px) {
@@ -1644,10 +1739,6 @@ div {
 
         .index .portfolio_wrappper .portfolio_row .portfolio_photo {
             width: 30%;
-        }
-
-        .index .portfolio_wrappper .portfolio_row .portfolio_photo img {
-            
         }
 
         .index .portfolio_wrappper .portfolio_row .portfolio_texts {
@@ -1866,7 +1957,8 @@ div {
 
         .contact .contact_wrapper .contact_layer1 .inquiry_text3 {
             margin: 58px 0 0;
-            width: 35.52vw;
+            /* width: 35.52vw; */
+            width: 54.52vw;
         }
 
         .contact .contact_wrapper .contact_layer1 .inquiry_text2 div div:nth-child(4) {
@@ -1878,7 +1970,7 @@ div {
         }
 
         .contact .contact_wrapper .contact_layer1 .map iframe {
-            width: 65.78vw;
+            width: 81.78vw;
             height: 65.78vw;
         }
 
@@ -1916,10 +2008,34 @@ div {
             }
 
 
+         
             /* contact Inquiry & Business Proposal */
-            .contact .contact_wrapper .contact_layer1 .inquiry_text2,
+
+            .contact .contact_wrapper .contact_layer1 .inquiry_text1{
+                font-size: 12px;
+            }
+
+            .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box .info_tit{
+                /* display: none; */
+                font-weight: bold;
+                width: 51px;
+                margin-right: 31px;
+            }
+
+            .contact .contact_wrapper .contact_layer1 .inquiry_text2 {
+                /* display: none; */
+                margin: 58px 0 0 0;
+            }
+
+            .contact .contact_wrapper .contact_layer1 .inquiry_text1 ul li .info_notice_flex {
+                height: 160px;
+                justify-content: space-between;
+            }
+
             .contact .contact_wrapper .contact_layer1 .inquiry_text3 {
-                display: none;
+                /* display: none; */
+                
+                width: 61.52vw;
             }
 
             .contact .contact_wrapper .contact_tit {
