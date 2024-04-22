@@ -165,7 +165,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>        
         <div class="about_studio_layer">
             <div class="about_titbox">
                 <div class="about_tit2">
@@ -185,7 +185,7 @@
                     </div> 
                 </div>
             </div> 
-        </div>    
+        </div>
     </content>
     <footer>
         <?php include('footer.php') ?>
