@@ -1038,58 +1038,6 @@ div {
     letter-spacing: 0.48px;
 }
 
-.contact .contact_wrapper .contact_layer1 .inquiry_text2 {
-    width: 66px;
-    font-family: 'NanumSquareNeo-Variable';
-    font-weight: bold;
-    color: #585858;
-    margin: 58px 65px 0 125px;
-} 
-
-.contact .contact_wrapper .contact_layer1 .inquiry_text2 div > div {
-    /*outline: solid 1px green;*/
-    margin-bottom: 15px;
-}
-
-.contact .contact_wrapper .contact_layer1 .inquiry_text2 div div:nth-child(4) {
-    margin-top: 65px;
-}
-
-.contact .contact_wrapper .contact_layer1 .inquiry_text3 {
-    width: 305px; /*270*/
-    /*outline: solid 1px red;*/
-    font-family: 'NanumSquareNeo-Variable';
-    color: #585858;
-    margin: 58px 118px 0 0;
-}
-
-.contact .contact_wrapper .contact_layer1 .inquiry_text3 div > div {
-    margin-bottom: 15px;
-}
-
-.contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(3) {
-    margin-bottom: 5px;
-}
-
-.contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(5) {
-    width: 263px;
-    margin-bottom: 15px;
-    color: #0019FF;
-    cursor: pointer;
-    text-decoration: none;
-    border-bottom: solid 1px #0019FF;
-}
-
-.contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(9) {
-    line-height: 18px;
-}
-
-.contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(10) {
-    margin-bottom: 0;
-    padding-left: 10px;
-    /*outline: solid 1px red;*/
-}
-
 .contact .contact_wrapper .contact_layer1 .inquiry_text1 ul{
     list-style: none;
     font-family: 'NanumSquareNeo-Variable';
@@ -1335,14 +1283,6 @@ div {
     }
 
     /* contact */
-    .contact .contact_wrapper .contact_layer1 .inquiry_text3 {
-        width: 25.41vw;
-    }
-
-    .contact .contact_wrapper .contact_layer1 .inquiry_text2 div div:nth-child(4) {
-        margin-top: 2.8vw;
-    }
-
     .contact .contact_wrapper .contact_layer1 .map iframe {
         width: 41.6vw;
         height: 41.6vw;
@@ -1404,26 +1344,6 @@ div {
         .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box {
             padding-left: 0;
             width: 426px;
-        }
-
-        .contact .contact_wrapper .contact_layer1 .inquiry_text2 {
-            margin-left: 0.36vw;
-            margin-right: 3.41vw;
-        }
-
-        .contact .contact_wrapper .contact_layer1 .inquiry_text2 div div:nth-child(4) {
-            margin-top: 3.5vw;
-        }
-
-        .contact .contact_wrapper .contact_layer1 .inquiry_text3 {
-            /*outline: solid 1px red;*/
-            margin-right: 3.41vw;
-            width: 26vw;/*25.45vw;*/
-        }
-
-        .contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(1) {
-            /*outline: solid 1px red;*/
-            width: 23.33vw;
         }
 
         .contact .contact_wrapper .contact_layer1 .map iframe {
@@ -1619,10 +1539,6 @@ div {
         height: 41.6vw;
     }
 
-    .contact .contact_wrapper .contact_layer1 .inquiry_text2 {
-        margin-left: 2.7vw;
-    }
-
     .contact .contact_wrapper .contact_layer1 .inquiry_text1 ul{
         list-style: none;
     }
@@ -1643,11 +1559,6 @@ div {
     .contact .contact_wrapper .contact_layer1 .map {
         margin-left: 2.7vw;
     }
-
-    .contact .contact_wrapper .contact_layer1 .inquiry_text2 div div:nth-child(4) {
-        margin-top: 4.10vw;
-    }
-
 
     /* contact contact us */
     .contact .contact_wrapper .contact_layer2 fieldset > div {
@@ -1882,13 +1793,13 @@ div {
         }
 
         .about .about_layer1 .about_description2 .desc_row .line {
-            width: 85px;
+            width: 80px;
         }
 
         .about .about_layer1 .about_description2 .desc_row .c3 {
             text-align: center;
             margin-top: 15px;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .about .about_wrapper .about_layer2 .business_description {
@@ -1943,30 +1854,12 @@ div {
             padding-left: 75px;
         }
 
-        .contact .contact_wrapper .contact_layer1 .inquiry_text2,
-        .contact .contact_wrapper .contact_layer1 .inquiry_text3 {
-            font-size: 14px;
+        .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box {
+            font-size: 15px;
         }
 
         .contact .contact_wrapper .contact_layer1 .inquiry_text1 {
             justify-content: center;
-        }
-
-        .contact .contact_wrapper .contact_layer1 .inquiry_text2 {
-        }
-
-        .contact .contact_wrapper .contact_layer1 .inquiry_text3 {
-            margin: 58px 0 0;
-            /* width: 35.52vw; */
-            width: 54.52vw;
-        }
-
-        .contact .contact_wrapper .contact_layer1 .inquiry_text2 div div:nth-child(4) {
-            margin-top: 5.1vw;
-        }
-        
-        .contact .contact_wrapper .contact_layer1 .inquiry_text3 div div:nth-child(5) {
-            width: 234px;
         }
 
         .contact .contact_wrapper .contact_layer1 .map iframe {
@@ -1975,11 +1868,14 @@ div {
         }
 
         /* contact contact us */
+        .contact .contact_wrapper .contact_layer2 fieldset label {
+            font-size: 15px;
+        }
+
         .contact .contact_wrapper .contact_layer2 fieldset div:nth-child(5) label {
             letter-spacing: -0.083vw;
             font-size: 1.58vw;
         }
-
 
 
         @media (max-width: 400px) {
@@ -2007,11 +1903,8 @@ div {
                 margin-top: 9.5vw;
             }
 
-
-         
             /* contact Inquiry & Business Proposal */
-
-            .contact .contact_wrapper .contact_layer1 .inquiry_text1{
+            .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box {
                 font-size: 12px;
             }
 
@@ -2022,20 +1915,9 @@ div {
                 margin-right: 31px;
             }
 
-            .contact .contact_wrapper .contact_layer1 .inquiry_text2 {
-                /* display: none; */
-                margin: 58px 0 0 0;
-            }
-
             .contact .contact_wrapper .contact_layer1 .inquiry_text1 ul li .info_notice_flex {
                 height: 160px;
                 justify-content: space-between;
-            }
-
-            .contact .contact_wrapper .contact_layer1 .inquiry_text3 {
-                /* display: none; */
-                
-                width: 61.52vw;
             }
 
             .contact .contact_wrapper .contact_tit {
@@ -2054,8 +1936,13 @@ div {
             /* contact contact us */
             .contact .contact_wrapper .contact_txt {
                 padding-left: 55px;
+                font-size: 14px;
             }
 
+            .contact .contact_wrapper .contact_layer2 fieldset label {
+                font-size: 14px;
+            }
+            
             .contact .contact_wrapper .contact_layer2 fieldset input[type=checkbox] {
                 width: 4vw;
                 height: 4vw;
