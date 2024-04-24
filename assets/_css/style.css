@@ -1855,11 +1855,15 @@ div {
         }
 
         .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box {
-            font-size: 15px;
+            font-size: 14px;
         }
 
         .contact .contact_wrapper .contact_layer1 .inquiry_text1 {
             justify-content: center;
+        }
+
+        .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box .info_tit {
+            margin-right: 5.78vw;
         }
 
         .contact .contact_wrapper .contact_layer1 .map iframe {
@@ -1869,7 +1873,7 @@ div {
 
         /* contact contact us */
         .contact .contact_wrapper .contact_layer2 fieldset label {
-            font-size: 15px;
+            font-size: 14px;
         }
 
         .contact .contact_wrapper .contact_layer2 fieldset div:nth-child(5) label {
@@ -1877,6 +1881,16 @@ div {
             font-size: 1.58vw;
         }
 
+
+        @media (max-width: 430px) {
+            .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box {
+                font-size: 13px;
+            }
+            
+            .contact .contact_wrapper .contact_layer1 .inquiry_text1 .info_box .info_tit {
+                margin-right: 2.78vw;
+            }
+        }
 
         @media (max-width: 400px) {
             .index .layer1 .text_l1 .cell.f25 {
